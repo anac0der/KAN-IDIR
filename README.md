@@ -1,2 +1,2 @@
-# KAN-IDIR
-Learning KAN-based Implicit Neural Representations for Deformable Image Registration
+## Learning KAN-based Implicit Neural Representations for Deformable Image Registration
+
