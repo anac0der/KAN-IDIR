@@ -19,7 +19,7 @@ cfg_module = importlib.import_module(args.config_path)
 if args.model is not None:
     variable_name = args.model.lower()
 else:
-    raise Exception('EWrong model name!')
+    raise Exception('Wrong model name!')
 
 
 curr_config = getattr(cfg_module, variable_name)

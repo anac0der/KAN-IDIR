@@ -1,0 +1,11 @@
+numpy==1.24.1
+scipy
+matplotlib
+seaborn
+pillow
+pathlib
+SimpleITK
+medpy
+nibabel
+scikit-image
+tqdm

@@ -8,8 +8,6 @@ import copy
 from datetime import datetime
 import time
 
-torch.set_num_threads(16)
-
 data_dir = "./data/dirlab"
 out_dir = "output"
 
@@ -24,7 +22,7 @@ cfg_module = importlib.import_module(args.config_path)
 if args.model is not None:
     variable_name = args.model.lower()
 else:
-    raise Exception('EWrong model name!')
+    raise Exception('Wrong model name!')
 
 curr_config = getattr(cfg_module, variable_name)
 print(curr_config)

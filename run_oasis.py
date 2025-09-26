@@ -20,13 +20,13 @@ cfg_module = importlib.import_module(args.config_path)
 if args.model is not None:
     variable_name = args.model.lower()
 else:
-    raise Exception('EWrong model name!')
+    raise Exception('Wrong model name!')
 
 
 curr_config = getattr(cfg_module, variable_name)
 print(curr_config)
 
-oasis_path = "./data/oasis_1_3d"
+oasis_path = "./data/oasis"
 oasis_folders_path = os.path.join(oasis_path, "subjects.txt")
 
 folders = []
