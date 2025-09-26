@@ -10,7 +10,7 @@ import time
 
 torch.set_num_threads(16)
 
-data_dir = "../IDIR/data/dirlab"
+data_dir = "./data/dirlab"
 out_dir = "output"
 
 torch.set_num_threads(16)
@@ -53,7 +53,7 @@ for run in range(args.runs):
         kwargs["mask"] = mask_exp  
         kwargs['seed'] = seed
         torch.cuda.empty_cache() 
-        
+
         t = time.time()
         ImpReg = models_3d.ImplicitRegistrator3d(img_exp, img_insp, **kwargs)
         ImpReg.fit()

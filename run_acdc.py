@@ -25,7 +25,7 @@ else:
 curr_config = getattr(cfg_module, variable_name)
 print(curr_config)
 
-acdc_path = "/home/n.drozdov/IDIR/data/acdc"
+acdc_path = "./data/acdc"
 case_ids = range(101, 151)
 patient_nums_0 = [[case_id, 0] for case_id in case_ids]
 patient_nums_1 = [[case_id, 1] for case_id in case_ids]
