@@ -1,10 +1,16 @@
-## Learning KAN-based Implicit Neural Representations for Deformable Image Registration
+# Learning KAN-based Implicit Neural Representations for Deformable Image Registration
 
-This repository contains the source code for our paper "Learning KAN-based Implicit Neural Representations for Deformable Image Registration".
+This repository contains the source code for our paper:
+> **Learning KAN-based Implicit Neural Representations for Deformable Image Registration**<br>
+> Nikita Drozdov,
+> Marat Zinovev,
+> Dmitry Sorokin
+> <br>
+> https://arxiv.org/abs/2509.22874
 
 **Updates:**
 
-<!-- *   [Date]: [Brief description of the update] -->
+- :fire: **September 2025** — Preprint of our paper is available on [arXiv](https://arxiv.org/abs/2509.22874)!
 
 ### Installation
 
@@ -52,3 +58,16 @@ Configurations for all models are stored in [configs/config.py](./configs/config
 ### Acknowledgments
 
 Our work builds upon the [IDIR](https://github.com/MIAGroupUT/IDIR) codebase. [ChebyKAN](https://github.com/SynodicMonth/ChebyKAN) repo was also very useful for implementing the KAN-based models.
+
+### Citation
+
+```bibtex
+@misc{drozdov2025learningkanbasedimplicitneural,
+      title={Learning KAN-based Implicit Neural Representations for Deformable Image Registration}, 
+      author={Nikita Drozdov and Marat Zinovev and Dmitry Sorokin},
+      year={2025},
+      eprint={2509.22874},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.22874}, 
+}
